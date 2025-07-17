@@ -1,1 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+.header {
+    background-color: #004080; /* Menu com fundo azul escuro (#004080) [cite: 15] */
+    color: white; /* e texto branco. [cite: 15] */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 30px;
+}
+
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    color:#0056b3
+}
+a:active{
+    color: orange;
+}
+.header nav ul li a {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px; /* Utilizar layout (largura máxima de 1200px) [cite: 14] */
+    margin: 20px auto; /* centralizado [cite: 14] */
+    background-color: white; /* Caixa central branca [cite: 16] */
+    border-radius: 8px; /* bordas arredondadas [cite: 16] */
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.course-list {
+    margin-top: 20px;
+}
+
+.course-item {
+    background-color: #eeeeee; /* Lista de cursos com fundo cinza claro (#eeeeee). [cite: 17] */
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-info p img {
+    width: 20px; /* Adjust size of icons */
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer {
+    background-color: #004080; /* Rodapé com fundo azul escuro [cite: 18] */
+    color: white; /* e texto branco centralizado. [cite: 18] */
+    text-align: center; /* centralizado [cite: 18] */
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.contact-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin-left: 37%;
+}
+
+.contact-form-container h2 {
+    color: #004080;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionamento vertical */
+    min-height: 100px;
+}
+
+.form-group button {
+    background-color: #004080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
